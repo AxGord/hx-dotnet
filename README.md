@@ -5,4 +5,4 @@ HaXe .NET Support
 <h2>Installation</h2>
 <pre>haxelib install dotnet</pre>
 
-<a href="//github.com/AxGord/hx-dotnet/examples/sockets/src/NetTest.hx">Example</a>
+<a href="//github.com/AxGord/hx-dotnet/blob/master/examples/sockets/src/NetTest.hx">Example</a>
