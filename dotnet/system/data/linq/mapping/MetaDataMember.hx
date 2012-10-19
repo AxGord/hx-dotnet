@@ -1,0 +1,33 @@
+package dotnet.system.data.linq.mapping;
+@:native('System.Data.Linq.Mapping.MetaDataMember') extern class MetaDataMember {
+	var Association(default,null):dotnet.system.data.linq.mapping.MetaAssociation;
+	var AutoSync(default,null):dotnet.system.data.linq.mapping.AutoSync;
+	var CanBeNull(default,null):Bool;
+	var DbType(default,null):String;
+	var DeclaringType(default,null):dotnet.system.data.linq.mapping.MetaType;
+	var DeferredSourceAccessor(default,null):dotnet.system.data.linq.mapping.MetaAccessor;
+	var DeferredValueAccessor(default,null):dotnet.system.data.linq.mapping.MetaAccessor;
+	var Expression(default,null):String;
+	var IsAssociation(default,null):Bool;
+	var IsDbGenerated(default,null):Bool;
+	var IsDeferred(default,null):Bool;
+	var IsDiscriminator(default,null):Bool;
+	var IsPersistent(default,null):Bool;
+	var IsPrimaryKey(default,null):Bool;
+	var IsVersion(default,null):Bool;
+	var LoadMethod(default,null):dotnet.system.reflection.MethodInfo;
+	var MappedName(default,null):String;
+	var Member(default,null):dotnet.system.reflection.MemberInfo;
+	var MemberAccessor(default,null):dotnet.system.data.linq.mapping.MetaAccessor;
+	var Name(default,null):String;
+	var Ordinal(default,null):Int;
+	var StorageAccessor(default,null):dotnet.system.data.linq.mapping.MetaAccessor;
+	var StorageMember(default,null):dotnet.system.reflection.MemberInfo;
+	var Type(default,null):cs.system.Type;
+	var UpdateCheck(default,null):dotnet.system.data.linq.mapping.UpdateCheck;
+	function Equals(obj:Dynamic):Bool;
+	function GetHashCode():Int;
+	function GetType():cs.system.Type;
+	function IsDeclaredBy(type:dotnet.system.data.linq.mapping.MetaType):Bool;
+	function ToString():String;
+}

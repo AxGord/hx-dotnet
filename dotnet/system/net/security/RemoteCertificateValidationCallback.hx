@@ -1,0 +1,2 @@
+package dotnet.system.net.security;
+typedef RemoteCertificateValidationCallback = Dynamic -> dotnet.system.security.cryptography.x509Certificates.X509Certificate -> dotnet.system.security.cryptography.x509Certificates.X509Chain -> dotnet.system.net.security.SslPolicyErrors -> Void

@@ -1,0 +1,33 @@
+package dotnet.system.net.networkInformation;
+@:native('System.Net.NetworkInformation.IcmpV4Statistics') extern class IcmpV4Statistics {
+	var AddressMaskRepliesReceived(default,null):dotnet.system.Int64;
+	var AddressMaskRepliesSent(default,null):dotnet.system.Int64;
+	var AddressMaskRequestsReceived(default,null):dotnet.system.Int64;
+	var AddressMaskRequestsSent(default,null):dotnet.system.Int64;
+	var DestinationUnreachableMessagesReceived(default,null):dotnet.system.Int64;
+	var DestinationUnreachableMessagesSent(default,null):dotnet.system.Int64;
+	var EchoRepliesReceived(default,null):dotnet.system.Int64;
+	var EchoRepliesSent(default,null):dotnet.system.Int64;
+	var EchoRequestsReceived(default,null):dotnet.system.Int64;
+	var EchoRequestsSent(default,null):dotnet.system.Int64;
+	var ErrorsReceived(default,null):dotnet.system.Int64;
+	var ErrorsSent(default,null):dotnet.system.Int64;
+	var MessagesReceived(default,null):dotnet.system.Int64;
+	var MessagesSent(default,null):dotnet.system.Int64;
+	var ParameterProblemsReceived(default,null):dotnet.system.Int64;
+	var ParameterProblemsSent(default,null):dotnet.system.Int64;
+	var RedirectsReceived(default,null):dotnet.system.Int64;
+	var RedirectsSent(default,null):dotnet.system.Int64;
+	var SourceQuenchesReceived(default,null):dotnet.system.Int64;
+	var SourceQuenchesSent(default,null):dotnet.system.Int64;
+	var TimeExceededMessagesReceived(default,null):dotnet.system.Int64;
+	var TimeExceededMessagesSent(default,null):dotnet.system.Int64;
+	var TimestampRepliesReceived(default,null):dotnet.system.Int64;
+	var TimestampRepliesSent(default,null):dotnet.system.Int64;
+	var TimestampRequestsReceived(default,null):dotnet.system.Int64;
+	var TimestampRequestsSent(default,null):dotnet.system.Int64;
+	function Equals(obj:Dynamic):Bool;
+	function GetHashCode():Int;
+	function GetType():cs.system.Type;
+	function ToString():String;
+}

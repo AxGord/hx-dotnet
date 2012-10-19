@@ -1,0 +1,34 @@
+package dotnet.system.net.http;
+@:native('System.Net.Http.WebRequestHandler') extern class WebRequestHandler {
+	function new():Void;
+	var AllowAutoRedirect(default,default):Bool;
+	var AllowPipelining(default,default):Bool;
+	var AuthenticationLevel(default,default):dotnet.system.net.security.AuthenticationLevel;
+	var AutomaticDecompression(default,default):dotnet.system.net.DecompressionMethods;
+	var CachePolicy(default,default):dotnet.system.net.cache.RequestCachePolicy;
+	var ClientCertificateOptions(default,default):dotnet.system.net.http.ClientCertificateOption;
+	var ClientCertificates(default,null):dotnet.system.security.cryptography.x509Certificates.X509CertificateCollection;
+	var ContinueTimeout(default,default):dotnet.system.TimeSpan;
+	var CookieContainer(default,default):dotnet.system.net.CookieContainer;
+	var Credentials(default,default):dotnet.system.net.ICredentials;
+	var ImpersonationLevel(default,default):dotnet.system.security.principal.TokenImpersonationLevel;
+	var MaxAutomaticRedirections(default,default):Int;
+	var MaxRequestContentBufferSize(default,default):dotnet.system.Int64;
+	var MaxResponseHeadersLength(default,default):Int;
+	var PreAuthenticate(default,default):Bool;
+	var Proxy(default,default):dotnet.system.net.IWebProxy;
+	var ReadWriteTimeout(default,default):Int;
+	var ServerCertificateValidationCallback(default,default):dotnet.system.net.security.RemoteCertificateValidationCallback;
+	var SupportsAutomaticDecompression(default,null):Bool;
+	var SupportsProxy(default,null):Bool;
+	var SupportsRedirectConfiguration(default,null):Bool;
+	var UnsafeAuthenticatedConnectionSharing(default,default):Bool;
+	var UseCookies(default,default):Bool;
+	var UseDefaultCredentials(default,default):Bool;
+	var UseProxy(default,default):Bool;
+	function Dispose():Void;
+	function Equals(obj:Dynamic):Bool;
+	function GetHashCode():Int;
+	function GetType():cs.system.Type;
+	function ToString():String;
+}

@@ -1,0 +1,33 @@
+package dotnet.system.net;
+@:native('System.Net.HttpResponseHeader') extern class HttpResponseHeader {
+	static var CacheControl;
+	static var Connection;
+	static var Date;
+	static var KeepAlive;
+	static var Pragma;
+	static var Trailer;
+	static var TransferEncoding;
+	static var Upgrade;
+	static var Via;
+	static var Warning;
+	static var Allow;
+	static var ContentLength;
+	static var ContentType;
+	static var ContentEncoding;
+	static var ContentLanguage;
+	static var ContentLocation;
+	static var ContentMd5;
+	static var ContentRange;
+	static var Expires;
+	static var LastModified;
+	static var AcceptRanges;
+	static var Age;
+	static var ETag;
+	static var Location;
+	static var ProxyAuthenticate;
+	static var RetryAfter;
+	static var Server;
+	static var SetCookie;
+	static var Vary;
+	static var WwwAuthenticate;
+}

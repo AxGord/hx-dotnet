@@ -1,0 +1,34 @@
+package dotnet.system.data;
+@:native('System.Data.SqlDbType') extern class SqlDbType {
+	static var BigInt;
+	static var Binary;
+	static var Bit;
+	static var Char;
+	static var DateTime;
+	static var Decimal;
+	static var Float;
+	static var Image;
+	static var Int;
+	static var Money;
+	static var NChar;
+	static var NText;
+	static var NVarChar;
+	static var Real;
+	static var UniqueIdentifier;
+	static var SmallDateTime;
+	static var SmallInt;
+	static var SmallMoney;
+	static var Text;
+	static var Timestamp;
+	static var TinyInt;
+	static var VarBinary;
+	static var VarChar;
+	static var Variant;
+	static var Xml;
+	static var Udt;
+	static var Structured;
+	static var Date;
+	static var Time;
+	static var DateTime2;
+	static var DateTimeOffset;
+}

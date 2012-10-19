@@ -1,0 +1,2 @@
+package dotnet.system.net.security;
+typedef LocalCertificateSelectionCallback = Dynamic -> String -> dotnet.system.security.cryptography.x509Certificates.X509CertificateCollection -> dotnet.system.security.cryptography.x509Certificates.X509Certificate -> String -> Void

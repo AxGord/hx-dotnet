@@ -1,0 +1,30 @@
+package dotnet.system.data;
+@:native('System.Data.DbType') extern class DbType {
+	static var AnsiString;
+	static var Binary;
+	static var Byte;
+	static var Boolean;
+	static var Currency;
+	static var Date;
+	static var DateTime;
+	static var Decimal;
+	static var Double;
+	static var Guid;
+	static var Int16;
+	static var Int32;
+	static var Int64;
+	static var Object;
+	static var SByte;
+	static var Single;
+	static var String;
+	static var Time;
+	static var UInt16;
+	static var UInt32;
+	static var UInt64;
+	static var VarNumeric;
+	static var AnsiStringFixedLength;
+	static var StringFixedLength;
+	static var Xml;
+	static var DateTime2;
+	static var DateTimeOffset;
+}

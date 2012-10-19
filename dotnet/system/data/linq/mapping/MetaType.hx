@@ -1,0 +1,37 @@
+package dotnet.system.data.linq.mapping;
+@:native('System.Data.Linq.Mapping.MetaType') extern class MetaType {
+	var Associations(default,null):dotnet.system.collections.objectModel.ReadOnlyCollection;
+	var CanInstantiate(default,null):Bool;
+	var DataMembers(default,null):dotnet.system.collections.objectModel.ReadOnlyCollection;
+	var DBGeneratedIdentityMember(default,null):dotnet.system.data.linq.mapping.MetaDataMember;
+	var DerivedTypes(default,null):dotnet.system.collections.objectModel.ReadOnlyCollection;
+	var Discriminator(default,null):dotnet.system.data.linq.mapping.MetaDataMember;
+	var HasAnyLoadMethod(default,null):Bool;
+	var HasAnyValidateMethod(default,null):Bool;
+	var HasInheritance(default,null):Bool;
+	var HasInheritanceCode(default,null):Bool;
+	var HasUpdateCheck(default,null):Bool;
+	var IdentityMembers(default,null):dotnet.system.collections.objectModel.ReadOnlyCollection;
+	var InheritanceBase(default,null):dotnet.system.data.linq.mapping.MetaType;
+	var InheritanceCode(default,null):Dynamic;
+	var InheritanceDefault(default,null):dotnet.system.data.linq.mapping.MetaType;
+	var InheritanceRoot(default,null):dotnet.system.data.linq.mapping.MetaType;
+	var InheritanceTypes(default,null):dotnet.system.collections.objectModel.ReadOnlyCollection;
+	var IsEntity(default,null):Bool;
+	var IsInheritanceDefault(default,null):Bool;
+	var Model(default,null):dotnet.system.data.linq.mapping.MetaModel;
+	var Name(default,null):String;
+	var OnLoadedMethod(default,null):dotnet.system.reflection.MethodInfo;
+	var OnValidateMethod(default,null):dotnet.system.reflection.MethodInfo;
+	var PersistentDataMembers(default,null):dotnet.system.collections.objectModel.ReadOnlyCollection;
+	var Table(default,null):dotnet.system.data.linq.mapping.MetaTable;
+	var Type(default,null):cs.system.Type;
+	var VersionMember(default,null):dotnet.system.data.linq.mapping.MetaDataMember;
+	function Equals(obj:Dynamic):Bool;
+	function GetDataMember(member:dotnet.system.reflection.MemberInfo):dotnet.system.data.linq.mapping.MetaDataMember;
+	function GetHashCode():Int;
+	function GetInheritanceType(type:cs.system.Type):dotnet.system.data.linq.mapping.MetaType;
+	function GetType():cs.system.Type;
+	function GetTypeForInheritanceCode(code:Dynamic):dotnet.system.data.linq.mapping.MetaType;
+	function ToString():String;
+}

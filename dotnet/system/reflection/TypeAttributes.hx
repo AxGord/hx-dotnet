@@ -1,0 +1,35 @@
+package dotnet.system.reflection;
+enum TypeAttributes {
+	VisibilityMask;
+	NotPublic;
+	Public;
+	NestedPublic;
+	NestedPrivate;
+	NestedFamily;
+	NestedAssembly;
+	NestedFamANDAssem;
+	NestedFamORAssem;
+	LayoutMask;
+	AutoLayout;
+	SequentialLayout;
+	ExplicitLayout;
+	ClassSemanticsMask;
+	Class;
+	Interface;
+	Abstract;
+	Sealed;
+	SpecialName;
+	Import;
+	Serializable;
+	WindowsRuntime;
+	StringFormatMask;
+	AnsiClass;
+	UnicodeClass;
+	AutoClass;
+	CustomFormatClass;
+	CustomFormatMask;
+	BeforeFieldInit;
+	ReservedMask;
+	RTSpecialName;
+	HasSecurity;
+}

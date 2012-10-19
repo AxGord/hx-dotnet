@@ -1,0 +1,31 @@
+package dotnet.system.net.networkInformation;
+@:native('System.Net.NetworkInformation.NetworkInterfaceType') extern class NetworkInterfaceType {
+	static var Unknown;
+	static var Ethernet;
+	static var TokenRing;
+	static var Fddi;
+	static var BasicIsdn;
+	static var PrimaryIsdn;
+	static var Ppp;
+	static var Loopback;
+	static var Ethernet3Megabit;
+	static var Slip;
+	static var Atm;
+	static var GenericModem;
+	static var FastEthernetT;
+	static var Isdn;
+	static var FastEthernetFx;
+	static var Wireless80211;
+	static var AsymmetricDsl;
+	static var RateAdaptDsl;
+	static var SymmetricDsl;
+	static var VeryHighSpeedDsl;
+	static var IPOverAtm;
+	static var GigabitEthernet;
+	static var Tunnel;
+	static var MultiRateSymmetricDsl;
+	static var HighPerformanceSerialBus;
+	static var Wman;
+	static var Wwanpp;
+	static var Wwanpp2;
+}

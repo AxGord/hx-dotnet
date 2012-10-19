@@ -1,0 +1,34 @@
+package dotnet.system.net.sockets;
+@:native('System.Net.Sockets.ProtocolFamily') extern class ProtocolFamily {
+	static var Unknown;
+	static var Unspecified;
+	static var Unix;
+	static var InterNetwork;
+	static var ImpLink;
+	static var Pup;
+	static var Chaos;
+	static var NS;
+	static var Ipx;
+	static var Iso;
+	static var Osi;
+	static var Ecma;
+	static var DataKit;
+	static var Ccitt;
+	static var Sna;
+	static var DecNet;
+	static var DataLink;
+	static var Lat;
+	static var HyperChannel;
+	static var AppleTalk;
+	static var NetBios;
+	static var VoiceView;
+	static var FireFox;
+	static var Banyan;
+	static var Atm;
+	static var InterNetworkV6;
+	static var Cluster;
+	static var Ieee12844;
+	static var Irda;
+	static var NetworkDesigners;
+	static var Max;
+}

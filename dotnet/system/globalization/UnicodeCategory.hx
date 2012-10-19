@@ -1,0 +1,33 @@
+package dotnet.system.globalization;
+@:native('System.Globalization.UnicodeCategory') extern class UnicodeCategory {
+	static var UppercaseLetter;
+	static var LowercaseLetter;
+	static var TitlecaseLetter;
+	static var ModifierLetter;
+	static var OtherLetter;
+	static var NonSpacingMark;
+	static var SpacingCombiningMark;
+	static var EnclosingMark;
+	static var DecimalDigitNumber;
+	static var LetterNumber;
+	static var OtherNumber;
+	static var SpaceSeparator;
+	static var LineSeparator;
+	static var ParagraphSeparator;
+	static var Control;
+	static var Format;
+	static var Surrogate;
+	static var PrivateUse;
+	static var ConnectorPunctuation;
+	static var DashPunctuation;
+	static var OpenPunctuation;
+	static var ClosePunctuation;
+	static var InitialQuotePunctuation;
+	static var FinalQuotePunctuation;
+	static var OtherPunctuation;
+	static var MathSymbol;
+	static var CurrencySymbol;
+	static var ModifierSymbol;
+	static var OtherSymbol;
+	static var OtherNotAssigned;
+}

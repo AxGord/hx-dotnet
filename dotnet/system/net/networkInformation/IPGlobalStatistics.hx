@@ -1,0 +1,29 @@
+package dotnet.system.net.networkInformation;
+@:native('System.Net.NetworkInformation.IPGlobalStatistics') extern class IPGlobalStatistics {
+	var DefaultTtl(default,null):Int;
+	var ForwardingEnabled(default,null):Bool;
+	var NumberOfInterfaces(default,null):Int;
+	var NumberOfIPAddresses(default,null):Int;
+	var NumberOfRoutes(default,null):Int;
+	var OutputPacketRequests(default,null):dotnet.system.Int64;
+	var OutputPacketRoutingDiscards(default,null):dotnet.system.Int64;
+	var OutputPacketsDiscarded(default,null):dotnet.system.Int64;
+	var OutputPacketsWithNoRoute(default,null):dotnet.system.Int64;
+	var PacketFragmentFailures(default,null):dotnet.system.Int64;
+	var PacketReassembliesRequired(default,null):dotnet.system.Int64;
+	var PacketReassemblyFailures(default,null):dotnet.system.Int64;
+	var PacketReassemblyTimeout(default,null):dotnet.system.Int64;
+	var PacketsFragmented(default,null):dotnet.system.Int64;
+	var PacketsReassembled(default,null):dotnet.system.Int64;
+	var ReceivedPackets(default,null):dotnet.system.Int64;
+	var ReceivedPacketsDelivered(default,null):dotnet.system.Int64;
+	var ReceivedPacketsDiscarded(default,null):dotnet.system.Int64;
+	var ReceivedPacketsForwarded(default,null):dotnet.system.Int64;
+	var ReceivedPacketsWithAddressErrors(default,null):dotnet.system.Int64;
+	var ReceivedPacketsWithHeadersErrors(default,null):dotnet.system.Int64;
+	var ReceivedPacketsWithUnknownProtocol(default,null):dotnet.system.Int64;
+	function Equals(obj:Dynamic):Bool;
+	function GetHashCode():Int;
+	function GetType():cs.system.Type;
+	function ToString():String;
+}

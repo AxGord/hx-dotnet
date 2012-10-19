@@ -1,0 +1,37 @@
+package dotnet.system.net.sockets;
+@:native('System.Net.Sockets.IOControlCode') extern class IOControlCode {
+	static var AsyncIO;
+	static var NonBlockingIO;
+	static var DataToRead;
+	static var OobDataRead;
+	static var AssociateHandle;
+	static var EnableCircularQueuing;
+	static var Flush;
+	static var GetBroadcastAddress;
+	static var GetExtensionFunctionPointer;
+	static var GetQos;
+	static var GetGroupQos;
+	static var MultipointLoopback;
+	static var MulticastScope;
+	static var SetQos;
+	static var SetGroupQos;
+	static var TranslateHandle;
+	static var RoutingInterfaceQuery;
+	static var RoutingInterfaceChange;
+	static var AddressListQuery;
+	static var AddressListChange;
+	static var QueryTargetPnpHandle;
+	static var NamespaceChange;
+	static var AddressListSort;
+	static var ReceiveAll;
+	static var ReceiveAllMulticast;
+	static var ReceiveAllIgmpMulticast;
+	static var KeepAliveValues;
+	static var AbsorbRouterAlert;
+	static var UnicastInterface;
+	static var LimitBroadcasts;
+	static var BindToInterface;
+	static var MulticastInterface;
+	static var AddMulticastGroupOnInterface;
+	static var DeleteMulticastGroupFromInterface;
+}

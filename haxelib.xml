@@ -1,0 +1,6 @@
+<project name="dotnet" url="https://github.com/AxGord/hx-dotnet" license="BSD">
+    <user name="AxGord"/>
+    <tag v="cs" />
+    <description>HaXe .NET Support</description>
+    <version name="0.1">First try</version>
+</project>
