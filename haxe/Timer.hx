@@ -47,6 +47,7 @@ class Timer {
 	**/
 	public function new( time_ms : Int ) {
 		#if cs
+			id = 1;
 			var f = runRun;
 			var tt = t = new dotnet.system.timers.Timer(time_ms);
 			t.Enabled = true;
@@ -70,7 +71,9 @@ class Timer {
 		if( id == null )
 			return;
 		#if cs
+			t.Stop();
 			t.Enabled = false;
+			t = null;
 		#elseif flash9
 			untyped __global__["flash.utils.clearInterval"](id);
 		#elseif flash
