@@ -40,7 +40,7 @@ class Timer {
 		#if cs
 			private var t:dotnet.system.timers.Timer;
 			private var id : Null<Int>;
-			private function runRun():Void run()
+			private function runRun():Void run();
 		#end
 	/**
 		Create a new timer that will run every [time_ms] (in milliseconds).
@@ -88,6 +88,7 @@ class Timer {
 		This is the [run()] method that is called when the Timer executes. It can be either overriden in subclasses or directly rebinded with another function-value.
 	**/
 	public dynamic function run() {
+		trace("run");
 	}
 
 	/**
