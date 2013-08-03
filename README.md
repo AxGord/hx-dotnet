@@ -1,3 +1,4 @@
+Project closed - use HUGS
 <h1>hx-dotnet</h1>
 HaXe .NET Support
 <p><small>v0.1.1</small></p>
